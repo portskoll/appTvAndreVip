@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="1dp"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.v7.widget.CardView android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" card_view:cardBackgroundColor="@color/colorPrimary"
+        card_view:cardElevation="2dp" card_view:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/LL_tvpeq">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:id="@+id/FrameCima">
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/WebViewCanal"
+                    android:visibility="gone" />
+
+                <VideoView
+                    android:id="@+id/vView_tvPQ"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="2"
+                    android:visibility="gone" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pb_tvpq"
+                    android:layout_gravity="center"
+                    android:indeterminate="false"
+                    android:layout_margin="10dp" />
+
+                <ImageView
+                    android:layout_width="@dimen/peq_TV_icon_whith"
+                    android:layout_height="@dimen/peq_TV_icon_higtht"
+                    android:id="@+id/img_canal"
+                    android:layout_gravity="top|left|center_vertical"
+                    android:layout_margin="16dp"
+                    android:alpha=".2" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <WebView
+                    android:id="@+id/webViewtvp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pb_webView_tvp"
+                    android:layout_gravity="center"
+                    android:indeterminate="false" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="2dp"
+            android:id="@+id/LL_desc"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+                <ImageView android:id="@+id/fragment_carro_img"
+                android:layout_width="@dimen/foto_carro_whith"
+                android:layout_height="@dimen/foto_carro_higtht"
+                android:layout_gravity="left"
+                android:elevation="2dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/texto_tipo_play"
+                        android:id="@+id/textView2"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/foto_t_play_whith"
+                        android:layout_height="@dimen/foto_t_play_higtht"
+                        android:id="@+id/img_tipo_play"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <View android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"/>
+
+                <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:id="@+id/tDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" android:textColor="@color/colorAccent"
+                    android:text="Descrição Aqui"
+                    android:layout_margin="8dp"
+                    android:paddingBottom="20dp" />
+            </ScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Configurações">
+        <CheckBoxPreference
+            android:key="@string/push_pref"
+            android:summary="Receber alertas sobre novas listas de filmes."
+            android:title="Notificacoes"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

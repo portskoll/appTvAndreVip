@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TVChat</string>
+    <string name="carros">Categorias</string>
+    <string name="site_livro">Novidades</string>
+    <string name="chat">Conheça nosso CHAT</string>
+    <string name="app_tv">Programação Filmes</string>
+    <string name="configuracoes">Atualizar Canais...</string>
+    <string name="futebol">Futebol ao Vivo</string>
+    <string name="nav_drawer_user_name">Programação da Tv na sua mão.</string>
+    <string name="nav_drawer_email">Seja bem vindo !</string>
+    <string name="title_activity_video">Play Filme</string>
+    <string name="texto_tipo_play">Assista no: </string>
+    <string name="push_pref">PREF_CHECK_PUSH</string>
+
+    <!-- itens do menu Lateral -->
+    <string name="action_referesh">Atualizar Canais</string>
+    <string name="action_search">Procurar Canal</string>
+    <string name="action_share">Compartilhar App</string>
+    <string name="action_voltar">Mostrar Categorias</string>
+
+    <!-- propaganda ADS -->
+
+    <string name="banner_ad_unit_id">ca-app-pub-1025155768178267/1991675437</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+
+    <!-- itens do tabLayout -->
+    <string name="acao">TvAberta</string>
+    <string name="animacao">Esporte</string>
+    <string name="aventura">Noticia</string>
+    <string name="comedia">Infantil</string>
+    <string name="comedia_r">Documentario</string>
+    <string name="crime">Variedade</string>
+    <string name="documentario">Filme</string>
+    <string name="drama">Drama</string>
+    <string name="faroeste">Faroeste</string>
+    <string name="ficao">F.Cientifica</string>
+    <string name="guerra">Guerra</string>
+    <string name="musical">Musical</string>
+    <string name="policial">Policial</string>
+    <string name="romance">Romance</string>
+    <string name="suspense">Suspence</string>
+    <string name="terror">Terror</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_carro">CarroActivity</string>
+    <string name="error_conexao_indisponivel">Conexão Indisponivel.Verifique seu WIFI ou 3G.</string>
+    <string name="erro_usuario_existente">Este usuário já existe !\nE a senha está incorreta.</string>
+    <string name="erro_cadastro">Cadastro não efetuado!\nTente digitar um usuario diferente\nou tente mais tarde.</string>
+    <string name="erro_email">Digite um email válido !o</string>
+    <string name="hint_cad_senha">Digite sua senha</string>
+    <string name="hint_cad_email">Digite seu email</string>
+    <string name="st_cadastro">Status</string>
+    <string name="play_continuar">Click no PLAY abaixo para Entrar em nosso APP.</string>
+    <string name="play_entrar">Click no PLAY ao lado para ENTRAR</string>
+    <string name="tela_cheia">Para assistir em Tela Cheia posicione\no aparelho na horizontal.</string>
+
+    <!-- Chat -->
+    <string name="hint_nome_chat">digite um apelido</string>
+    <string name="NCHAT">Nome_chat</string>
+    <string name="ajuda">Entrando automaticamente no app, com muita diversão para você. Caso queira entrar AGORA click abaixo no Play</string>
+</resources>

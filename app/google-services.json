@@ -1,0 +1,197 @@
+{
+  "project_info": {
+    "project_number": "834732718143",
+    "firebase_url": "https://andre-c8848.firebaseio.com",
+    "project_id": "andre-c8848",
+    "storage_bucket": "andre-c8848.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834732718143:android:e5737dee528a0982",
+        "android_client_info": {
+          "package_name": "com.acessevip.tvoqtem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834732718143-v4490fjnspp175d0b6663rga25v4niuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtA4aIjqbIjUZRiH9EHpCiE_Qt3YOMLb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834732718143:android:0045edbff2a3f048",
+        "android_client_info": {
+          "package_name": "com.acessevip.cadfilmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834732718143-v4490fjnspp175d0b6663rga25v4niuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtA4aIjqbIjUZRiH9EHpCiE_Qt3YOMLb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834732718143:android:bd4e7b16236e00cd",
+        "android_client_info": {
+          "package_name": "com.acessevip.tvoqpassa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834732718143-v4490fjnspp175d0b6663rga25v4niuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtA4aIjqbIjUZRiH9EHpCiE_Qt3YOMLb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834732718143:android:2eb9cfd88b72c5e2",
+        "android_client_info": {
+          "package_name": "com.acessevip.tvoqpassavip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834732718143-v4490fjnspp175d0b6663rga25v4niuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtA4aIjqbIjUZRiH9EHpCiE_Qt3YOMLb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834732718143:android:f350a6859b9f6764",
+        "android_client_info": {
+          "package_name": "com.acessevip.sofilmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834732718143-v4490fjnspp175d0b6663rga25v4niuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtA4aIjqbIjUZRiH9EHpCiE_Qt3YOMLb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834732718143:android:7e3d5a99ec393811",
+        "android_client_info": {
+          "package_name": "com.acessevip.tvchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834732718143-v4490fjnspp175d0b6663rga25v4niuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtA4aIjqbIjUZRiH9EHpCiE_Qt3YOMLb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

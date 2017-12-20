@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- outras configuracoes foto grande -->
+    <dimen name="foto_carro_whith">200dp</dimen>
+    <dimen name="foto_carro_higtht">200dp</dimen>
+
+    <!-- outras configuracoes foto tipo_play -->
+    <dimen name="foto_t_play_whith">100dp</dimen>
+    <dimen name="foto_t_play_higtht">100dp</dimen>
+
+    <!-- outras configuracoes prog_TV_play -->
+    <dimen name="prog_TV_play_whith">50dp</dimen>
+    <dimen name="prog_TV_play_higtht">50dp</dimen>
+
+    <!-- outras configuracoes prog_TV_play -->
+    <dimen name="peq_TV_icon_whith">24dp</dimen>
+    <dimen name="peq_TV_icon_higtht">24dp</dimen>
+
+    <!-- outras configuracoes foto pequena -->
+    <dimen name="foto_peq_carro_whith">100dp</dimen>
+    <dimen name="foto_peq_carro_higtht">100dp</dimen>
+</resources>
